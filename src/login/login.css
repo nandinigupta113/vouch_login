@@ -1,0 +1,76 @@
+.Login{
+    display: flex;
+    align-items: center;
+}
+.box2 img{
+    height: 100vh;
+    width: 63vw;
+}
+.inputs button{
+    background: #000;
+    color: white;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    width: 37vw;
+}
+.heading{
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+.heading h2{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: -30px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.inputval{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    width: 23rem; 
+}
+.inputval input{
+    height: 2.3rem;
+    border: 4px solid red;
+    font-family: 'Secular One', sans-serif;
+}
+.inputs button{
+    height: 3rem;
+    width: 23rem; 
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+}
+.lowerline{
+    display: flex;
+    justify-content: space-between;
+}
+.lowerline p{
+    font-size: 1rem;
+    font-weight:600;
+}
+.lowerline h4{
+    font-size: 1rem;
+    font-weight:600;
+}
+.lowerline p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
