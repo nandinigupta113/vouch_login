@@ -80,6 +80,12 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.error{
+    color: red;
+    font-family: 'Secular One', sans-serif;  
+    margin-bottom:-0.5rem;
+}
+
 @media(min-width:100px) and (max-width:1080px){
     .box2{
         display: none;
