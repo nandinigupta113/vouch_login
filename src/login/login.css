@@ -1,3 +1,9 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .Login{
     display: flex;
     align-items: center;
@@ -73,4 +79,28 @@
 .lowerline p:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+@media(min-width:100px) and (max-width:1080px){
+    .box2{
+        display: none;
+    }
+    .box1{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:400px){
+    .inputval{
+        width: 17rem; 
+    }
+    .inputs button{
+        width: 17rem; 
+    }
+    .lowerline{
+        display: flex;
+        flex-direction: column;
+    }
 }
