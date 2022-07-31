@@ -1,13 +1,13 @@
-/* eslint-disable jsx-a11y/alt-text */
 import { useState } from "react";
 import React from 'react'
 import "./login.css";
 import "antd/dist/antd.css";
 import Loginimg from "../Images/loginImg.png";
 import { UserOutlined } from "@ant-design/icons";
-// import { toast } from "react-toastify";
 import axios from "axios";
 import { Input, Space, Button, Checkbox } from "antd";
+
+
 const Login = () => {
 
   const [email,setEmail] = useState("");
@@ -33,7 +33,7 @@ const Login = () => {
       .then((res) => {
         console.log(res.data);
         if(res.data.token){
-          // toast.error("Select any language first");
+          alert("Sucessfully loggedin");
         }
       })
       .catch((err) => {
